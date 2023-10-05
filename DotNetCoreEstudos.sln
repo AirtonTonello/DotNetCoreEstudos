@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppCollections", "ConsoleAppCollections\ConsoleAppCollections.csproj", "{36B2208D-3A5A-44A4-94F2-2CF073383F09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bytebank_ATENDIMENTO", "bytebank_ATENDIMENTO\bytebank_ATENDIMENTO.csproj", "{DB63001A-FF92-4BF4-BA6B-3DB63AA8EE74}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B2208D-3A5A-44A4-94F2-2CF073383F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B2208D-3A5A-44A4-94F2-2CF073383F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B2208D-3A5A-44A4-94F2-2CF073383F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B2208D-3A5A-44A4-94F2-2CF073383F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB63001A-FF92-4BF4-BA6B-3DB63AA8EE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB63001A-FF92-4BF4-BA6B-3DB63AA8EE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB63001A-FF92-4BF4-BA6B-3DB63AA8EE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB63001A-FF92-4BF4-BA6B-3DB63AA8EE74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
